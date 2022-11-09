@@ -1,15 +1,6 @@
 <template>
   <header class="container">
-    <div class="menu">
-      <a
-        class="menu__link"
-        href="https://github.com/stamorim28"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        /stamorim28
-      </a>
-    </div>
+
 
     <div class="info">
       <img
@@ -19,7 +10,7 @@
         loading="lazy"
       />
 
-      <h1 class="info__title">Spend Bill Gates' Money</h1>
+      <h1 class="info__title">Spend Mc Donalds's money</h1>
     </div>
   </header>
 </template>
