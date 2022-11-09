@@ -12,7 +12,19 @@
     </div>
   </footer>
 </template>
-
+<template>
+  <footer class="cart container--padd" v-if="cart.length">
+    <h1>You spend </h1>
+    <div v-for="(prod, index) in cart" :key="index" class="cart__list">
+      <div class="cart__item">
+        <h1>{{ prod.name }}</h1>
+        <div class="cart__price">
+          <h1>{{ `$` + prod.price }}</h1>
+        </div>
+      </div>
+    </div>
+  </footer>
+</template>
 <script>
 import { mapGetters } from "vuex";
 
