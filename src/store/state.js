@@ -1,5 +1,5 @@
 export default ({
-    money: 2300000069000,
+    money: 6969696969696,
 
     shop: [
         {
